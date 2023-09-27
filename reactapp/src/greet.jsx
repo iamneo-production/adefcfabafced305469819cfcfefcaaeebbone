@@ -21,7 +21,7 @@ function Greet() {
         value={userInput}
         onChange={handleInputChange}
       />
-      <button onClick={handleDisplayClick}>Display</button>
+      <button onClick={handleDisplayClick}>say Hello</button>
       <p>{displayedText}</p>
     </div>
   );
